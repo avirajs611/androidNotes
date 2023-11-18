@@ -1,0 +1,8 @@
+when android app runs
+and whenever it do rotations
+onDestroy is called itself 
+which clears whole data
+and it needs to be handled manualy
+
+ We have to store that data into the systems ram
+to prevent it and fetch it
